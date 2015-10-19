@@ -1,0 +1,11 @@
+.pydevproject
+.project
+.settings
+*.pyc
+*.pyo
+__pycache__
+[Dd]ata/
+/!RELEASE_X86/
+/!RELEASE_X64/
+build/
+mailoutput/
