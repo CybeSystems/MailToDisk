@@ -96,7 +96,6 @@ class MailToDisk():
 
     mailOutputFolder = os.path.join(os.getcwd(), cybeSystemsMainSettings['Main']['OutputFolder'])
     filename = mailOutputFolder + "\\mail_" + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + ".eml"
-    print(filename)
 
     # Security restriction: mailoutput folder may not have more then 300 MB overall size for write in
     if cybeSystemsMainSettings['Main']['300MBFolderLimit'] == True:
